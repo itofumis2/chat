@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object演習</title>
+</head>
+<body>
+<script>
+// オブジェクトの中身を取得してみる
+const post = {
+    title: "投稿タイトル",
+    text: "本文",
+    user: {
+        name: "ジーズ太郎",
+        email: "gstaro@example.com"
+    }
+};
+
+console.log(post);
+console.log(post.title);
+console.log(post.user.email);
+post.test= "字幕"
+console.log(post.test);
+
+const user = {
+    name: "花火",
+    age: 54,
+    sex: "male",
+}
+
+console.log(user);
+
+user.birth = 6
+
+console.log(user)
+
+alert(JSON.stringify(user))
+
+const key = "name";
+console.log(user[key]);
+
+
+
+</script>
+</body>
+</html>

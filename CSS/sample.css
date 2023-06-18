@@ -1,0 +1,13 @@
+
+#output {
+    height: 300px;   
+    overflow-y: scroll;  
+    overflow-x: hidden; 
+    color: aliceblue;
+    background-color: #383838;
+}
+
+body{
+    background-color: #000000;
+}
+
